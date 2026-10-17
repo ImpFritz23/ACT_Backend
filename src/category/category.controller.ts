@@ -1,3 +1,6 @@
+// This is a sample text inside category controller
+
+
 import { Controller, Get, Post, Put, Delete, Body, Param, UseGuards, Request } from '@nestjs/common';
 import { CategoryService } from './category.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
