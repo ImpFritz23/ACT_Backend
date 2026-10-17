@@ -1,3 +1,6 @@
+// This a sample comment inside category service
+
+
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { DatabaseService } from '../database/database.service';
 import { RowDataPacket, OkPacket } from 'mysql2';
